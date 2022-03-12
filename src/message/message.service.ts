@@ -15,9 +15,12 @@ export class MessageService {
   }
 
   async sendMessage(name: string, email: string, message: string) {
-    const _message = `*You've received new message from ${name} \(${email}\)*
+    const _message = `*${name} (${email})*
+------------------------
+${message}`
+    /* const _message = `*You've received new message from ${name} \(${email}\)*
 
-"${message}"`
+"${message}"` */
     await this.bot.telegram
       .sendMessage(this.USER_ID, _message, { parse_mode: 'Markdown' })
       .catch((err) => {
