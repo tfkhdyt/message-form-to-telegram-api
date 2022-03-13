@@ -15,8 +15,7 @@ export class MessageService {
   }
 
   async sendMessage(name: string, email: string, message: string) {
-    const _message = `*${name} (${email})*
-------------------------
+    const _message = `*${name} (${email}) says:*
 ${message}`
     /* const _message = `*You've received new message from ${name} \(${email}\)*
 
