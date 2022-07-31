@@ -68,3 +68,15 @@ npm run start
 ```
 
 Check `package.json` file for more available scripts.
+
+## Endpoint
+
+`/message` `/POST`
+
+Body:
+
+- name: string
+- email: string
+- message: string
+
+[Example](https://github.com/tfkhdyt/web-portfolio/blob/e75a0524175d7df014cf9560f463619eb691e0e3/src/components/Contact/Form.tsx#L24) with Axios
