@@ -71,12 +71,12 @@ Check `package.json` file for more available scripts.
 
 ## Endpoint
 
-`/message` `/POST`
+- `/message`. Method: `POST`
 
-Body:
+  Body:
 
-- name: string
-- email: string
-- message: string
+  - name: string
+  - email: string
+  - message: string
 
-[Example](https://github.com/tfkhdyt/web-portfolio/blob/e75a0524175d7df014cf9560f463619eb691e0e3/src/components/Contact/Form.tsx#L24) with Axios
+  [Example](https://github.com/tfkhdyt/web-portfolio/blob/e75a0524175d7df014cf9560f463619eb691e0e3/src/components/Contact/Form.tsx#L24) with Axios
