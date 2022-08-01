@@ -39,7 +39,7 @@ mv .env.example .env
 
 4. Create a Telegram Bot (I won't teach you how, find the tutorial on Internet). And then put your bot token to `BOT_TOKEN` on `.env`.
 
-5. Send your telegram username to this [bot](https://t.me/username_to_id_bot), copy the id and put on `ADMIN_ID` variable on `.env`
+5. Send your telegram username to this [bot](https://t.me/username_to_id_bot), copy the id and put on `USER_ID` variable on `.env`
 
 6. Instal dependencies
 
